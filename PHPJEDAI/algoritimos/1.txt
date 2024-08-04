@@ -1,0 +1,10 @@
+Objetivo jantar
+
+---estar em casa
+	estou com fome?
+		ok, posso jantar.
+			temos comida?
+				sim! vamos jantar.
+
+--- se não estiver em casa, tenho que ir para casa.
+	cheguei em casa? ok executamos mesma ação do primeiro.

@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1722464898 source:/home/cybermago/PROGRAM/Learn/Logic Program/C/main.c
+	<stdio.h>
+	<stdlib.h>
+
+1722543553 source:/home/cybermago/PROGRAM/Learn/Logic Program/C/main1.c
+	<stdio.h>
+	<stdlib.h>
+

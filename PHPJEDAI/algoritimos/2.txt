@@ -1,0 +1,22 @@
+---formulario de cadastro
+
+usuario envio formulário.
+
+{
+	1 - email está correto?
+	se estiver{
+	nome está correto?
+	se estiver{
+	cpf está correto?
+	se estiver{
+	realizar cadastro
+	}se não{
+	    errado!
+	}
+	}se não{
+		errado!
+	}
+	}se não{
+		errado!
+	}
+}

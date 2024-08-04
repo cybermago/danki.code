@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+    <style>
+        .filho{
+            background-color: blue;
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid black;
+        }
+    </style>
+
+<script>
+
+        $(function(){
+
+            $('.pai .filho').each(function(){
+                var obj = $(this).find('.filho-do-filho');
+                if(obj.length > 0){
+                    if(obj.hasClass("animar")){
+                    obj.animate({width:"100px"},3000,function(){
+                        console.log("terminamos");
+                    });
+                $(this).css('background-color', 'red');
+                }
+            }
+        })
+
+    })
+        
+        
+        </script>
+        
+</head>
+<body>
+    
+<div class="pai">
+    <div class="filho"><div class="filho-do-filho"></div></div>
+    <div class="filho"><div class="filho-do-filho animar"></div></div>
+    <div class="filho">3</div>
+</div>
+
+</body>
+</html>
